@@ -4,7 +4,7 @@ This project demonstrates a practical approach to mitigating Layer 7 (HTTP Flood
 
 ---
 
-## 🛠️ Project Overview
+##  Project Overview
 
 - Deploys **two EC2 instances** configured with DDoS protection mechanisms.
 - Uses an **Application Load Balancer (ALB)** to distribute traffic and apply initial filtering via **Access Control Lists (ACL)**.
@@ -14,7 +14,7 @@ This project demonstrates a practical approach to mitigating Layer 7 (HTTP Flood
 
 ---
 
-## 📌 Key Features
+##  Key Features
 
 - Load-balanced architecture using AWS ALB.
 - ACL-based request filtering at the edge.
@@ -24,7 +24,7 @@ This project demonstrates a practical approach to mitigating Layer 7 (HTTP Flood
 
 ---
 
-## 🧰 Technologies Used
+##  Technologies Used
 
 - **Cloud Platform:** AWS EC2, ALB, ACL
 - **Web Server:** Nginx (rate limiting, logging)
@@ -32,7 +32,7 @@ This project demonstrates a practical approach to mitigating Layer 7 (HTTP Flood
 - **Monitoring:** Custom log analysis
 - **Security:** CAPTCHA (optional), ACLs, Rate Limiting
 
-## 🚀 Deployment Steps
+##  Deployment Steps
 
 ### 1. Launch EC2 Instances (2)
 - OS: Ubuntu Server (Free Tier eligible)
